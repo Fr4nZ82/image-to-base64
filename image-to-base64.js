@@ -6,7 +6,7 @@
     }
     
     function validTypeImage (image) {
-        return /(\.(jpg)|\.(png)|\.(jpeg))/gi.test(image);
+        return true;
     }
     
     function base64ToBrowser (buffer) {
